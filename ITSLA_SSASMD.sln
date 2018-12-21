@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ITSLA_SSASMD_KP10621", "ITSLA_SSASMD\ITSLA_SSASMD_KP10621.dwproj", "{67953C8E-58A8-4CC6-B7B4-18A58028BBDE}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ITSLA_SSASMD", "ITSLA_SSASMD\ITSLA_SSASMD.dwproj", "{67953C8E-58A8-4CC6-B7B4-18A58028BBDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
