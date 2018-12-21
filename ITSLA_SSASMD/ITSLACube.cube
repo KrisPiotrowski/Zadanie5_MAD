@@ -500,10 +500,25 @@
         <Attribute dwd:design-time-name="e6b42483-f993-464f-91d5-ac0e4a90f514">
           <AttributeID>Calendar Month</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b7cd73e4-a4bd-4116-8dce-b2097969cb40">
+          <AttributeID>Fiscal Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ca69fe4-fd15-48a3-afce-fb2b50809b80">
+          <AttributeID>Fiscal Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="98e961ea-76a5-43a7-9db6-237d89943f1c">
+          <AttributeID>Fiscal Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e38d1408-a5ab-4c82-9292-714ea9400301">
+          <AttributeID>Fiscal Month</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="f298d5d2-511d-451e-9bfd-68da95512169">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="363e3d88-c961-44fc-9b71-f3be0a184e90">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
