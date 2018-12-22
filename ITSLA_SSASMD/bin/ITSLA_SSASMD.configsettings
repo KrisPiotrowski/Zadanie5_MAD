@@ -36,7 +36,7 @@
         <ID>DimCurrency</ID>
       </Dimension>
       <Dimension>
-        <ID>v Dim Product</ID>
+        <ID>DimProduct</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>gFjv/KIPqT/fOPfxN9LtEgJDBcA=12/22/2018 12:28:15 PM12/22/2018 12:20:22 PM</TimeStamp>
+        <TimeStamp>aQq+H082i/BzFrIyq9g6q8VLtfY=12/22/2018 1:33:47 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
           <String>ContosoRetailDW</String>
         </ID>
@@ -89,14 +89,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>8F2Gjwjft4dEa/NIIVR/zf4WmrY=12/22/2018 12:44:46 PM12/22/2018 12:41:41 PM</TimeStamp>
+        <TimeStamp>Dkik9f7bERzvNf0QzThZ11G5pBI=12/22/2018 1:27:32 PM12/22/2018 1:24:54 PM</TimeStamp>
         <ID>
-          <String>v Dim Product</String>
+          <String>DimProduct</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>eWkO+6AvUEBXtz6Wr2aYDlD0xZs=12/22/2018 1:01:52 PM12/22/2018 12:20:22 PMIf1el9lv4qe1EKW8yjvepGgpZQ4=12/22/2018 12:51:01 PM12/22/2018 12:20:22 PM</TimeStamp>
+        <TimeStamp>5oi3AU88V6cIOWuXYJd6FFlCliM=12/22/2018 1:37:52 PM12/22/2018 12:20:22 PMIf1el9lv4qe1EKW8yjvepGgpZQ4=12/22/2018 12:51:01 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
           <String>ITSLACube</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-22T12:01:54.98Z</LastDeployed>
+  <LastDeployed>2018-12-22T12:38:04.166667Z</LastDeployed>
 </DeploymentSnapshot>

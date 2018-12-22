@@ -52,8 +52,8 @@
       <FullPath>DimCurrency.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>v Dim Product.dim</Name>
-      <FullPath>v Dim Product.dim</FullPath>
+      <Name>DimProduct.dim</Name>
+      <FullPath>DimProduct.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
