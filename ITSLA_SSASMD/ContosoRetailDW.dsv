@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="25" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="825" scrolltop="4580" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="24024" y="14102" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="25" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="825" scrolltop="-9510" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="24024" y="14102" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                   </font>
@@ -417,7 +417,7 @@
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>825</DiagramViewPortLeft>
-            <DiagramViewPortTop>4580</DiagramViewPortTop>
+            <DiagramViewPortTop>-9510</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>90</DiagramZoom>
@@ -489,6 +489,38 @@
                   <xs:element name="CalendarHalfYear" msprop:design-time-name="0b4dcfc4-9569-4c66-85d0-8cf42174ef3d" msprop:DbColumnName="CalendarHalfYear" type="xs:int" minOccurs="0" />
                   <xs:element name="CalendarQuarter" msprop:design-time-name="3aabebac-fd70-4a7e-bd6b-1078928221d4" msprop:DbColumnName="CalendarQuarter" type="xs:int" minOccurs="0" />
                   <xs:element name="CalendarMonth" msprop:design-time-name="3ca9cf6a-b0a6-4098-acee-c1a2a7ba0085" msprop:DbColumnName="CalendarMonth" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalYear" msprop:DbColumnName="FiscalYear" msprop:design-time-name="54dcf2b6-da36-4484-a47d-7a9f8b5a507d" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalYearLabel" msprop:DbColumnName="FiscalYearLabel" msprop:design-time-name="b1efc5c5-37d1-4e58-aea7-8d8fc0ba5c1c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FiscalHalfYear" msprop:DbColumnName="FiscalHalfYear" msprop:design-time-name="2a61ad47-4186-47eb-9a90-be158519a417" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalHalfYearLabel" msprop:DbColumnName="FiscalHalfYearLabel" msprop:design-time-name="94e6a2cf-1f8a-4fb2-887f-aa408d72ff1c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FiscalQuarter" msprop:DbColumnName="FiscalQuarter" msprop:design-time-name="8012039a-d88f-4f70-953c-f5291fb659eb" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalQuarterLabel" msprop:DbColumnName="FiscalQuarterLabel" msprop:design-time-name="d759885b-ceea-42d6-b446-3b5ee7468fa3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FiscalMonth" msprop:DbColumnName="FiscalMonth" msprop:design-time-name="ff7e0642-be9e-40c0-a452-8dba2401f2b0" type="xs:int" minOccurs="0" />
+                  <xs:element name="FiscalMonthLabel" msprop:DbColumnName="FiscalMonthLabel" msprop:design-time-name="ac19ef7b-8d0e-49d6-a6bd-35289f6e1409" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -786,7 +818,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimCurrency" msprop:design-time-name="bef75bc2-dfb5-44f3-a577-805e2cd8ea96" msprop:DbTableName="vDimCurrency" msprop:FriendlyName="vDimCurrency" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimCurrency" msprop:design-time-name="bef75bc2-dfb5-44f3-a577-805e2cd8ea96" msprop:FriendlyName="vDimCurrency" msprop:DbSchemaName="olap" msprop:DbTableName="vDimCurrency" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="CurrencyKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1ad1c3da-e129-49d2-81b8-12619610e523" msprop:DbColumnName="CurrencyKey" msprop:FriendlyName="CurrencyKey" type="xs:int" />
@@ -817,7 +849,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimProduct" msprop:design-time-name="77c18b80-ba62-4d35-9f3d-40d19c9494f3" msprop:DbTableName="vDimProduct" msprop:FriendlyName="vDimProduct" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimProduct" msprop:design-time-name="77c18b80-ba62-4d35-9f3d-40d19c9494f3" msprop:FriendlyName="vDimProduct" msprop:DbSchemaName="olap" msprop:DbTableName="vDimProduct" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ProductKey" msprop:design-time-name="b57ed885-ce60-4ce1-a0aa-5fed4cac6edd" msprop:DbColumnName="ProductKey" msprop:FriendlyName="ProductKey" type="xs:int" />
@@ -985,7 +1017,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vFactInventory" msprop:design-time-name="c267c9f0-2b2a-438c-b35d-06f2e8a57d0f" msprop:DbTableName="vFactInventory" msprop:FriendlyName="vFactInventory" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vFactInventory" msprop:design-time-name="c267c9f0-2b2a-438c-b35d-06f2e8a57d0f" msprop:FriendlyName="vFactInventory" msprop:DbSchemaName="olap" msprop:DbTableName="vFactInventory" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="InventoryKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5e9d3a73-920b-4ded-a673-aeb017467897" msprop:DbColumnName="InventoryKey" msprop:FriendlyName="InventoryKey" type="xs:int" />
