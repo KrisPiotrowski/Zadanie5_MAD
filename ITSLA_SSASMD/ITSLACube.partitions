@@ -61,5 +61,45 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Fact Sales</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="33d0dbc7-20f6-40c7-a0d4-54fcab666a06">
+          <ID>v Fact Sales</ID>
+          <Name>v Fact Sales</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="99444471-acce-412a-b7e1-b2ec1805939d">
+            <DataSourceViewID>ContosoRetailDW</DataSourceViewID>
+            <TableID>olap_vFactSales</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Fact Online Sales</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5a339f6b-b3b9-4559-94b4-3486ee09adc8">
+          <ID>v Fact Online Sales</ID>
+          <Name>v Fact Online Sales</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c1e3dde4-2587-4c3d-b720-c5518d04df36">
+            <DataSourceViewID>ContosoRetailDW</DataSourceViewID>
+            <TableID>olap_vFactOnlineSales</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

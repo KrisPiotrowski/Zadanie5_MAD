@@ -76,6 +76,22 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>v Fact Sales</ID>
+            <Partitions>
+              <Partition>
+                <ID>v Fact Sales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>v Fact Online Sales</ID>
+            <Partitions>
+              <Partition>
+                <ID>v Fact Online Sales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
