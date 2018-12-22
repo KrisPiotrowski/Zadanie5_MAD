@@ -81,6 +81,20 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+MJSs+gp6gThn0d3u0KejYRXo6Q=12/22/2018 12:39:25 PM12/22/2018 12:36:45 PM</TimeStamp>
+        <ID>
+          <String>DimCurrency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8F2Gjwjft4dEa/NIIVR/zf4WmrY=12/22/2018 12:44:46 PM12/22/2018 12:41:41 PM</TimeStamp>
+        <ID>
+          <String>v Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
         <TimeStamp>JfLk1ZEbrM7OhT5vj9YEuuiLla8=12/22/2018 12:33:23 PM12/22/2018 12:20:22 PM27myMtzVT7QS0UZHaGEb8XEbM5s=11/25/2018 6:16:47 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
@@ -99,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-22T11:33:29.73Z</LastDeployed>
+  <LastDeployed>2018-12-22T11:45:02.216667Z</LastDeployed>
 </DeploymentSnapshot>

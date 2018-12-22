@@ -47,6 +47,14 @@
       <Name>DDimITMachine.dim</Name>
       <FullPath>DDimITMachine.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimCurrency.dim</Name>
+      <FullPath>DimCurrency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Product.dim</Name>
+      <FullPath>v Dim Product.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

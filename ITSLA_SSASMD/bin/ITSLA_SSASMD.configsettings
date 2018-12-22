@@ -32,6 +32,12 @@
       <Dimension>
         <ID>DDimITMachine</ID>
       </Dimension>
+      <Dimension>
+        <ID>DimCurrency</ID>
+      </Dimension>
+      <Dimension>
+        <ID>v Dim Product</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
