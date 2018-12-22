@@ -95,6 +95,27 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zB1TLeC8cVvh7iX+Wjl6qHJOQOA=12/22/2018 2:49:07 PM12/22/2018 2:48:20 PM</TimeStamp>
+        <ID>
+          <String>DimChannel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rR9bs6wMg7YHWqTQEEHxGdHSJK8=12/22/2018 2:50:57 PM12/22/2018 2:49:49 PM</TimeStamp>
+        <ID>
+          <String>DimPromotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>24FoU+XfU5ug54lj3UQH5hZXXn0=12/22/2018 2:53:16 PM12/22/2018 2:52:00 PM</TimeStamp>
+        <ID>
+          <String>DimCustomer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
         <TimeStamp>5oi3AU88V6cIOWuXYJd6FFlCliM=12/22/2018 1:37:52 PM12/22/2018 12:20:22 PMIf1el9lv4qe1EKW8yjvepGgpZQ4=12/22/2018 12:51:01 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
@@ -113,5 +134,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-22T13:44:57.963333Z</LastDeployed>
+  <LastDeployed>2018-12-22T13:55:48.93Z</LastDeployed>
 </DeploymentSnapshot>

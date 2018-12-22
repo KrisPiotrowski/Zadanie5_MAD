@@ -38,6 +38,15 @@
       <Dimension>
         <ID>DimProduct</ID>
       </Dimension>
+      <Dimension>
+        <ID>DimChannel</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DimPromotion</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DimCustomer</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

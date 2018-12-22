@@ -55,6 +55,18 @@
       <Name>DimProduct.dim</Name>
       <FullPath>DimProduct.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimChannel.dim</Name>
+      <FullPath>DimChannel.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimPromotion.dim</Name>
+      <FullPath>DimPromotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimCustomer.dim</Name>
+      <FullPath>DimCustomer.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
