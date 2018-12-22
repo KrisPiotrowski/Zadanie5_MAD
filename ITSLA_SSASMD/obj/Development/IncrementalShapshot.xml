@@ -96,7 +96,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>JfLk1ZEbrM7OhT5vj9YEuuiLla8=12/22/2018 12:33:23 PM12/22/2018 12:20:22 PM27myMtzVT7QS0UZHaGEb8XEbM5s=11/25/2018 6:16:47 PM12/22/2018 12:20:22 PM</TimeStamp>
+        <TimeStamp>eWkO+6AvUEBXtz6Wr2aYDlD0xZs=12/22/2018 1:01:52 PM12/22/2018 12:20:22 PMIf1el9lv4qe1EKW8yjvepGgpZQ4=12/22/2018 12:51:01 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
           <String>ITSLACube</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-22T11:45:02.216667Z</LastDeployed>
+  <LastDeployed>2018-12-22T12:01:54.98Z</LastDeployed>
 </DeploymentSnapshot>
