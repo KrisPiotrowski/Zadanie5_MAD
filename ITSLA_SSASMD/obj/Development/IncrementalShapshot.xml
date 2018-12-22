@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>aQq+H082i/BzFrIyq9g6q8VLtfY=12/22/2018 1:33:47 PM12/22/2018 12:20:22 PM</TimeStamp>
+        <TimeStamp>NRDbH/nkD/mPq96ebswu/dJfcRk=12/22/2018 2:44:42 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
           <String>ContosoRetailDW</String>
         </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-22T12:38:04.166667Z</LastDeployed>
+  <LastDeployed>2018-12-22T13:44:57.963333Z</LastDeployed>
 </DeploymentSnapshot>
