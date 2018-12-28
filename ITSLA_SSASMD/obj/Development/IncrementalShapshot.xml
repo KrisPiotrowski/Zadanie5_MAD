@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Dkik9f7bERzvNf0QzThZ11G5pBI=12/22/2018 1:27:32 PM12/22/2018 1:24:54 PM</TimeStamp>
+        <TimeStamp>E0wF39L5+8LS1yGqGsgOmLJBJQc=12/28/2018 7:42:40 PM12/22/2018 1:24:54 PM</TimeStamp>
         <ID>
           <String>DimProduct</String>
         </ID>
@@ -117,7 +117,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>x6WcijRhYTFi8vS6ojq1PGHuhro=12/22/2018 3:20:38 PM12/22/2018 12:20:22 PMLpNXmSVaQzOrO+AD/vhhpdgfde8=12/22/2018 3:03:21 PM12/22/2018 12:20:22 PM</TimeStamp>
+        <TimeStamp>Sv4pnja+quM/HPdmDcj3zpXeC5g=12/28/2018 7:35:48 PM12/22/2018 12:20:22 PMLpNXmSVaQzOrO+AD/vhhpdgfde8=12/22/2018 3:03:21 PM12/22/2018 12:20:22 PM</TimeStamp>
         <ID>
           <String>ITSLACube</String>
         </ID>
@@ -134,5 +134,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-22T14:20:44.836667Z</LastDeployed>
+  <LastDeployed>2018-12-28T18:42:53.803333Z</LastDeployed>
 </DeploymentSnapshot>
